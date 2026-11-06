@@ -78,7 +78,12 @@ body.dark .button:hover{background:var(--ivory);border-color:var(--ivory)}a{colo
 }
 
 /* Full name wordmark for clearer personal identity. */
-.brand{font-family:Manrope,system-ui,sans-serif;font-size:.98rem;font-weight:700;letter-spacing:.07em;text-transform:none;white-space:nowrap}
+.brand{font-family:Manrope,system-ui,sans-serif;font-size:1.28rem;font-weight:800;letter-spacing:.045em;text-transform:uppercase;white-space:nowrap}
+.desktop-nav{gap:1.45rem;margin-left:2rem}
+.header-actions{gap:8px}
+@media(max-width:1100px) and (min-width:801px){.brand{font-size:1.08rem}.desktop-nav{gap:1rem;margin-left:1rem}.desktop-nav a,.footer-links a{letter-spacing:.12em}.header-actions .button{padding-left:10px;padding-right:10px}}
+@media(max-width:800px){.brand{font-size:1.02rem;letter-spacing:.035em}}
+@media(max-width:520px){.brand{font-size:.86rem;letter-spacing:.025em}}
 
 /* Refined scale: a quieter headline system and closer editorial groupings. */
 .hero{gap:2.5rem}

@@ -77,6 +77,9 @@ body.dark .button:hover{background:var(--ivory);border-color:var(--ivory)}a{colo
   .archive-band{padding:4rem 0}
 }
 
+/* Full name wordmark for clearer personal identity. */
+.brand{font-family:Manrope,system-ui,sans-serif;font-size:.82rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+
 /* Refined scale: a quieter headline system and closer editorial groupings. */
 .hero{gap:2.5rem}
 .hero h1{font-size:clamp(3.8rem,7.25vw,7.5rem)}

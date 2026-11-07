@@ -166,3 +166,6 @@ body.dark .button:hover{background:var(--ivory);border-color:var(--ivory)}a{colo
   .project-detail-art{min-height:260px}
   .project-detail-copy .case-study-grid{grid-template-columns:1fr;gap:1.5rem}
 }
+.linkedin-hero-link{display:inline-grid;place-items:center;width:40px;height:40px;border:1px solid var(--brass);border-radius:50%;color:var(--forest);transition:background .2s,color .2s,transform .2s}
+.linkedin-hero-link:hover{background:var(--forest);color:var(--ivory);transform:translateY(-2px)}
+.linkedin-hero-link:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
